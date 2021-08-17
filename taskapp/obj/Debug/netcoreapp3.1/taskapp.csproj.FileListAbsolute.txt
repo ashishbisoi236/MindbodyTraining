@@ -1,0 +1,14 @@
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\bin\Debug\netcoreapp3.1\taskapp.exe
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\bin\Debug\netcoreapp3.1\taskapp.deps.json
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\bin\Debug\netcoreapp3.1\taskapp.runtimeconfig.json
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\bin\Debug\netcoreapp3.1\taskapp.runtimeconfig.dev.json
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\bin\Debug\netcoreapp3.1\taskapp.dll
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\bin\Debug\netcoreapp3.1\taskapp.pdb
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\obj\Debug\netcoreapp3.1\taskapp.csproj.AssemblyReference.cache
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\obj\Debug\netcoreapp3.1\taskapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\obj\Debug\netcoreapp3.1\taskapp.AssemblyInfoInputs.cache
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\obj\Debug\netcoreapp3.1\taskapp.AssemblyInfo.cs
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\obj\Debug\netcoreapp3.1\taskapp.csproj.CoreCompileInputs.cache
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\obj\Debug\netcoreapp3.1\taskapp.dll
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\obj\Debug\netcoreapp3.1\taskapp.pdb
+C:\Users\AshishKumar.Bisoi\source\repos\ConsoleApp1\taskapp\obj\Debug\netcoreapp3.1\taskapp.genruntimeconfig.cache
