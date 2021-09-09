@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Creating a snapshot of AboutUs component 1`] = `
+<h3
+  style={
+    Object {
+      "color": "#4a54f1",
+      "paddingTop": "100px",
+      "textAlign": "center",
+    }
+  }
+>
+  About me/ Us
+</h3>
+`;

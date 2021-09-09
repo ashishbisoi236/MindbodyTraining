@@ -1,0 +1,74 @@
+{
+  "music": [
+    {
+      "id": 1,
+      "song": "Arcade",
+      "slug": "arcade",
+      "album": "Losing game",
+      "genre": "pop"
+    },
+    {
+      "id": 3,
+      "song": "Beggin'",
+      "slug": "beggin",
+      "album": "Chosen",
+      "genre": "rap"
+    },
+    {
+      "id": 4,
+      "song": "Arcade",
+      "slug": "arcade",
+      "album": "Losing game",
+      "genre": "pop"
+    },
+    {
+      "id": 5,
+      "song": "Bad Habits",
+      "slug": "bad-habits",
+      "album": "Bad habits3",
+      "genre": "rock"
+    },
+    {
+      "id": 6,
+      "song": "Need to Know",
+      "slug": "need-to-know",
+      "album": "Planet Her",
+      "genre": "pop"
+    },
+    {
+      "id": 7,
+      "song": "DeathBed2",
+      "album": "DeathBed2",
+      "genre": "action",
+      "createdAt": 1629784488731
+    },
+    {
+      "id": 8,
+      "song": "Industry baby2",
+      "album": "industry baby2",
+      "genre": "action",
+      "createdAt": 1629784584504
+    },
+    {
+      "id": 9,
+      "song": "DeathBed3",
+      "album": "industry baby",
+      "genre": "action",
+      "createdAt": 1629784652692
+    },
+    {
+      "id": 10,
+      "song": "DeathBed4",
+      "album": "industry baby",
+      "genre": "action",
+      "createdAt": 1629784751355
+    },
+    {
+      "id": 11,
+      "song": "DeathBed5",
+      "album": "DeathBed",
+      "genre": "action",
+      "createdAt": 1629785617445
+    }
+  ]
+}
