@@ -1,0 +1,65 @@
+﻿@model ShoppingCartViewModel
+
+<div style="padding-top:80px">
+    <h2>Here's Your Shopping Cart!</h2>
+    <h3>Excellent choice!</h3>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Sub Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ShoppingCart.ShoppingCartItems)
+            {
+                <tr>
+                    <td class="text-left">
+                        @item.Dish.DishName
+                    </td>
+                    <td class="text-right">
+                        @item.Dish.Price
+                    </td>
+                    <td class="text-center">
+                        <a class="lnk btn btn-success btn-sm" asp-controller="ShoppingCart" asp-action="RemoveFromShoppingCart" asp-route-dishId="@item.Dish.DishId">
+                            -
+                        </a>
+                        @item.Quantity
+
+                    <a class="lnk btn btn-success btn-sm" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-dishId="@item.Dish.DishId">
+                        +
+                    </a>
+                    </td>
+                    <td class="text-right">@((item.Quantity * item.Dish.Price).ToString("c"))</td>
+                </tr>
+
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right">Total:</td>
+                <td class="text-right">
+                    @Model.ShoppingCartTotal.ToString("c")
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-right">
+                    <a class="btn btn-primary" asp-controller="Register" asp-action="Index">
+                        Check out Now!
+                    </a>
+                </td>
+                <td colspan="2">
+                    <a class="btn btn-primary" asp-controller="Dish" asp-action="Index">
+                        Continue Shopping!
+                    </a>
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</div>

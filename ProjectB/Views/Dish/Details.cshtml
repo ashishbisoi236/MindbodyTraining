@@ -1,0 +1,17 @@
+﻿@model Dish
+
+<h2>@Model.DishName</h2>
+
+<div class="container">
+    <div class="col-md-6">
+        <img alt="@Model.DishName" src="@Model.ImageUrl" class="img-thumbnail" />
+        <div class="caption-full">
+            <h3 class="pull-right">@Model.Price</h3>
+            <h3>@Model.DishName</h3>
+            <h4>@Model.Description</h4>
+        </div>
+        <a class="lnk btn btn-success btn-block mt-2" asp-controller="ShoppingCart" asp-action="Index" asp-route-dishId="@Model.DishId">
+            Add to Cart
+        </a> 
+    </div>
+</div>

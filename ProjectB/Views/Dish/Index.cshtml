@@ -1,0 +1,11 @@
+﻿@model DishesListViewModel
+
+<div class="row" style="margin:40px">
+
+    @foreach (var dish in Model.Dishes)
+    {
+        <partial name="_DishCard" model="dish" />
+
+    }
+
+</div> 

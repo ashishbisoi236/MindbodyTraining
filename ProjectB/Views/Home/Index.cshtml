@@ -1,0 +1,35 @@
+﻿@model HomeViewModel
+@*<h1>Feast Hub</h1>*@
+
+
+<div class="row justify-content-center">
+    <div class="search">
+    <input type="text" class="form-control" placeholder="Search..." name="" id="searchValue"> <a asp-controller="SearchBox" asp-action="Index" asp-route-dishName="makki" class="search-icon"> <i class="fa fa-search"></i> </a> 
+    </div>
+</div>
+
+@{ 
+    
+
+}
+<div class="card-deck">
+    <div class="card shadow">
+        <div class="card-body">
+            <h2> Best Sellers of the Week!</h2>
+            <h4>Our Weekly selection of dishes!</h4>
+
+            <div class="row">
+
+                @foreach (var dish in Model.BestSeller)
+                {
+                    <partial name="_DishCard" model="dish" />
+                }
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
